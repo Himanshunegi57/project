@@ -1,0 +1,33 @@
+.footer{
+    height: 450px;
+    background-color:rgb(67, 68, 68);
+    color: beige;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+   }
+
+   .footerdetail{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+   }
+   
+.companydetaildiv, .companydiv{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-evenly;
+   }
+
+.footerdetail p{
+    font-size: 15px;
+}
+
+.idlogo{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}

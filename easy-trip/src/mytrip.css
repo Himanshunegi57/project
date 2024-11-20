@@ -1,0 +1,58 @@
+.card{
+    width: 90%;
+    height: 500px;
+    background-color: rgb(230, 227, 227);
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 15px 15px 10px gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.cardimage{
+    width: 40%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px 8px 20px;
+    justify-content: space-between;
+}
+
+.detailpara{
+    font-size: 15px;
+}
+
+.bookingdiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tickets{
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+   }
+
+.name{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    }
+
+.linkbtn{
+    width: 120px;
+    padding: 6px 8px;
+    background-color: rgb(204, 68, 68);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.linkbtn:hover{
+    background-color: rgb(132, 132, 180);
+}

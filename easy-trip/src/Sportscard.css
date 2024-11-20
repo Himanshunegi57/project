@@ -1,0 +1,77 @@
+.pro1{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(230, 227, 227);
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    transform: translateY(-10px);
+    transition-duration: 0.4ms;
+    box-shadow: 15px 15px 8px gray;
+
+}
+
+.image1{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.country1{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    padding: 8px 0px 8px 20px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.btn3{
+    padding: 4px 6px;
+    background-color: rgb(67, 68, 68);;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+}
+   
+
+.bookingsport{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ticketsport{
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+   }
+
+.namesport{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    }
+
+.bookingsport> .booklink{
+    padding: 6px 8px;
+    background-color: rgb(204, 68, 68);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.bookingsport> .booklink:hover{
+    background-color: rgb(132, 132, 180);
+}
+
+.timming{
+    width: 80px;
+    height: 20px;
+}
+
+.sportdate{
+    height: 20px;
+}
